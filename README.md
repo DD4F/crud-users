@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Para Ejecutar
+### docker-compose up --build -d
+### docker exec -it crud-users-laravel.test-1 bash
+#### una vez dentro del contendor 
+### composer install 
+### php artisan migrate:refresh --seed
+
+## Servidor Web
+## Puerto 80
+
+## Mailhog
+## Puerto 8025
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
