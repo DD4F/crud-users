@@ -8,17 +8,16 @@
 </p>
 
 ## Para Ejecutar
-### docker-compose up --build -d
-### docker exec -it crud-users-laravel.test-1 bash
-#### una vez dentro del contendor 
-### composer install 
-### php artisan migrate:refresh --seed
+- Servidor Web: Puerto 80
+- MySQL: Puerto 3306
+- Mailhog: Puerto 8025
+- ##
+- docker-compose up --build -d
+- docker exec -it crud-users-laravel.test-1 bash
+[x] Una vez dentro del contendor 
+- composer install 
+- php artisan migrate:refresh --seed
 
-## Servidor Web
-## Puerto 80
-
-## Mailhog
-## Puerto 8025
 
 ## About Laravel
 
